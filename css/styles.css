@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navbar CSS */
+.navbar{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 3% 5%;
+    background-color: #A084CA;
+    box-shadow: 0 3px 10px #BFACE0;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+#addTaskBtn{
+    font-size: xx-large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    background-color: #A084CA;
+    position: absolute;
+    right: 48%;
+    top: 22%;
+}
+
+#addTaskBtn:hover{
+    box-shadow: 0px 3px 30px #BFACE0;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#btnName{
+    text-align: center;
+    position: absolute;
+    top: 31%;
+    right: 46%;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+
+#container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+.taskCard{
+    width: 30%;
+    height: 25vh;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 0.5px solid;
+    padding: 2%;
+    overflow: auto;
+}
+
+.taskCard h2{
+    padding: 0 5px 5px 0 ;
+    color: #BFACE0;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.taskCard h4{
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+
+
+.delBtn{
+    color: #483838;
+    position: sticky;
+    /* left: 67%; */
+    top: 80%;
+    padding: 3%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: red;
+    border: 0.5px solid #484848;
+} 
+
+.delBtn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 3px 5px #484848;
+    transition: 0.7s;
+}
