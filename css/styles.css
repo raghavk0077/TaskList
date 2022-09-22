@@ -32,9 +32,6 @@ body{
     color: white;
     border-radius: 50%;
     background-color: #A084CA;
-    position: absolute;
-    right: 48%;
-    top: 22%;
 }
 
 #addTaskBtn:hover{
@@ -43,11 +40,15 @@ body{
     cursor: pointer;
 }
 
+.btn{
+    position: absolute;
+    top: 22%;
+    right: 45%;
+
+}
+
 #btnName{
     text-align: center;
-    position: absolute;
-    top: 31%;
-    right: 46%;
     font-size: 1.5rem;
     color: #A084CA;
 }
@@ -55,12 +56,10 @@ body{
 #main-div{
     display: flex;
     flex-direction: column;
-    /* background-color: white; */
 }
 
 #container{
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     margin-top: 15%;
     width: 100%;
